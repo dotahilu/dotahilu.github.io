@@ -265,6 +265,9 @@ blockquote {
 .space {
 	padding: 20px 0;
 }
+.col-md-3 h5 {
+	text-align: center;
+}
 .pr-10 {
 	padding-right: 10px;
 }
