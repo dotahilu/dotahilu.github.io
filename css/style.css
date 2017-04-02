@@ -763,21 +763,6 @@ textarea {
 	-moz-background-size: contain;
 	background-size: contain;
 }
-.process-content .item[data-item]::before {
-	background: #38424e;
-	color: #FFFFFF;
-	border-radius: 100%;
-	font-family: "montserrat-bold", sans-serif;
-	content: attr(data-item);
-	display: inline-block;
-	font-size: 18px;
-	height: 42px;
-	width: 42px;
-	line-height: 42px;
-	text-align: center;
-	vertical-align: middle;
-	margin-bottom: 1.5rem;
-}
 .process-content h5 {
 	color: #05bca9;
 	font-size: 1.6rem;
