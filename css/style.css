@@ -808,3 +808,9 @@ textarea {
 	bottom: 0;
 	margin-left: -60px;
 }
+
+.row .objects {
+	margin-top: 40px;
+	color: #0066f5;
+	font-family: "merriweather-bold", serif;
+}
