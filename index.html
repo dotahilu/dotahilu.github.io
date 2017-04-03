@@ -1,11 +1,9 @@
-﻿<!DOCTYPE html>
-<!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->
-<!--[if !IE]><!-->
-<html lang="en">
-<!--<![endif]-->
-	<head>
+<!DOCTYPE html>
+<!-- saved from url=(0027)https://dotahilu.github.io/ -->
+<html lang="en" class=" js no-touch csstransitions"><!--<![endif]--><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 		<meta charset="utf-8">
 		<title> Nhóm DoTaHiLu - Đồ án 1 môn Nhập môn CNTT 2 </title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 		<meta name="description" content="DoTaHiLu - NMCNTT2">
 		<meta name="author" content="htmlcoder.me">
 
@@ -13,29 +11,193 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 		<!-- Favicon -->
-		<link rel="shortcut icon" href="images/favicon.ico">
+		<link rel="shortcut icon" href="https://dotahilu.github.io/images/favicon.ico">
 
 		<!-- Web Fonts -->
-		<link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,400,700,300&amp;subset=latin,latin-ext' rel='stylesheet' type='text/css'>
-		<link href='http://fonts.googleapis.com/css?family=Raleway:700,400,300' rel='stylesheet' type='text/css'>
+		<link href="./Nhóm DoTaHiLu - Đồ án 1 môn Nhập môn CNTT 2_files/css" rel="stylesheet" type="text/css">
+		<link href="./Nhóm DoTaHiLu - Đồ án 1 môn Nhập môn CNTT 2_files/css(1)" rel="stylesheet" type="text/css">
 
 		<!-- Bootstrap core CSS -->
-		<link href="bootstrap/css/bootstrap.css" rel="stylesheet">
+		<link href="./Nhóm DoTaHiLu - Đồ án 1 môn Nhập môn CNTT 2_files/bootstrap.css" rel="stylesheet">
 
 		<!-- Font Awesome CSS -->
-		<link href="fonts/font-awesome/css/font-awesome.css" rel="stylesheet">
+		<link href="./Nhóm DoTaHiLu - Đồ án 1 môn Nhập môn CNTT 2_files/font-awesome.css" rel="stylesheet">
 
 		<!-- Plugins -->
-		<link href="css/animations.css" rel="stylesheet">
+		<link href="./Nhóm DoTaHiLu - Đồ án 1 môn Nhập môn CNTT 2_files/animations.css" rel="stylesheet">
 
 		<!-- Worthy core CSS file -->
-		<link href="css/style.css" rel="stylesheet">
+		<link href="./Nhóm DoTaHiLu - Đồ án 1 môn Nhập môn CNTT 2_files/style.css" rel="stylesheet">
 
 		<!-- Custom css --> 
-		<link href="css/custom.css" rel="stylesheet">
+		<link href="./Nhóm DoTaHiLu - Đồ án 1 môn Nhập môn CNTT 2_files/custom.css" rel="stylesheet">
 	</head>
 
-	<body class="no-trans">
+	<body class="no-trans scroll-spy"><div class="modal fade" id="project-1" tabindex="-1" role="dialog" aria-labelledby="project-1-label" aria-hidden="true">
+									<div class="modal-dialog modal-lg">
+										<div class="modal-content">
+											<div class="modal-header">
+												<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">×</span><span class="sr-only">Close</span></button>
+												<h4 class="modal-title" id="project-1-label">Cơ chế login</h4>
+											</div>
+											<div class="modal-body">
+												<h3>Mô tả</h3>
+												<div class="row">
+													<div class="col-md-6">
+														<p>Trang web cho phép người dùng đăng nhập bằng Facebook hay Google</p>
+														<strong>Quy trình xác thực bằng Facebook/Google </strong>
+														<ul>
+															<li><p>Đầu tiên, từ trang web của mình, chúng ta yêu cầu người dùng cho phép truy cập vào thông tin của người dùng (Từ thông tin này ta sẽ dùng để đăng nhập vào hệ thống). Thực ra ở bước này ta sẽ chuyển hướng người dùng đến trang xác thực của facebook/google.</p>
+															</li>
+															<li><p>Tiếp theo, người dùng sẽ xác nhận và cung cấp cho ta các quyền để truy cập vào thông tin của người dùng.</p>
+															</li>
+															<li><p>Sau đó, facebook/google sẽ chuyển hướng người dùng về lại trang web của ta cùng với thông tin về quyền truy cập mà người dùng đã cho phép.</p>
+															</li>
+															<li><p>Từ thông tin facebook/google trả về, ta sẽ gọi các hàm API của facebook/google để lấy thông tin của người dùng như user name, email…</p>
+															</li>
+															<li><p>Với những thông tin đã có được, ta tiến hành đăng nhập cho người dùng ( chẳng hạn lưu vào session rằng người dùng đã đăng nhập), nếu muốn ta có thể sử dụng thông tin người dùng để lưu vào database.</p>
+															</li>
+														</ul>
+														<strong>Các bước thực hiện </strong>
+														<ol>
+															<li><p>Tạo Facebook App/ Google Project và thiết lập cấu hình</p> </li>
+															<li><p>Tạo trang đăng nhập</p> </li>
+															<li><p>Tạo trang xử lý khi người dùng đã xác thực</p> </li>
+															<li><p>Lưu thông tin người dùng</p> </li>
+														</ol>
+														<i> Nguồn: http://saysua.com/2013/09/03/viet-chuc-nang-login-bang-tai-khoan-facebook-khong-dung-facebook-sdk/ </i>
+													</div>
+													<div class="col-md-6">
+														<img src="./Nhóm DoTaHiLu - Đồ án 1 môn Nhập môn CNTT 2_files/facebook-flow.png" alt="">
+													</div>
+												</div>
+											</div>
+											<div class="modal-footer">
+												<button type="button" class="btn btn-sm btn-default" data-dismiss="modal">Close</button>
+											</div>
+										</div>
+									</div>
+								</div><div class="modal fade" id="project-2" tabindex="-1" role="dialog" aria-labelledby="project-2-label" aria-hidden="true">
+									<div class="modal-dialog modal-lg">
+										<div class="modal-content">
+											<div class="modal-header">
+												<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">×</span><span class="sr-only">Close</span></button>
+												<h4 class="modal-title" id="project-2-label">Quảng cáo website</h4>
+											</div>
+											<div class="modal-body">
+												<h3>Mô tả</h3>
+												<div class="row">
+													<div class="col-md-6">
+														<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque sed, quidem quis praesentium, ut unde. Quae sed, incidunt laudantium nesciunt, optio corporis quod earum pariatur omnis illo saepe numquam suscipit, nemo placeat dignissimos eius mollitia et quas officia doloremque ipsum labore rem deserunt vero! Magnam totam delectus accusantium voluptas et, tempora quos atque, fugiat, obcaecati voluptatibus commodi illo voluptates dolore nemo quo soluta quis.</p>
+														<p>Molestiae sed enim laboriosam atque delectus voluptates rerum nostrum sapiente obcaecati molestias quasi optio exercitationem, voluptate quis consequatur libero incidunt, in, quod. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos nobis officiis, autem earum tenetur quidem. Quae non dicta earum. Ipsum autem eaque cum dolor placeat corporis quisquam dolorum at nesciunt.</p>
+													</div>
+													<div class="col-md-6">
+														<img src="./Nhóm DoTaHiLu - Đồ án 1 môn Nhập môn CNTT 2_files/portfolio-2.jpg" alt="">
+													</div>
+												</div>
+											</div>
+											<div class="modal-footer">
+												<button type="button" class="btn btn-sm btn-default" data-dismiss="modal">Close</button>
+											</div>
+										</div>
+									</div>
+								</div><div class="modal fade" id="project-3" tabindex="-1" role="dialog" aria-labelledby="project-3-label" aria-hidden="true">
+									<div class="modal-dialog modal-lg">
+										<div class="modal-content">
+											<div class="modal-header">
+												<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">×</span><span class="sr-only">Close</span></button>
+												<h4 class="modal-title" id="project-3-label">Cơ chế gửi mail tự động</h4>
+											</div>
+											<div class="modal-body">
+												<h3>Mô Tả</h3>
+												<div class="row">
+													<div class="col-md-6">
+														<p>Website sẽ tự động gửi mail thông báo đến người dùng khi người dùng để lại comment</p>
+														<strong>Cơ chế diễn ra như sau: </strong>
+														<ol>
+															<li> <p> Người dùng nhấn submit comment </p> </li>
+															<li> <p>Từ web client gửi tín hiệu đến web server.</p></li>
+															<li> <p>Bước 3: Server xử lý tín hiệu: </p> </li>
+															<ul>	
+																<li><p>Nếu là tín hiệu gửi mail, server lấy id người dùng vừa gửi để lấy mail trong cơ sở dữ liệu. Từ đó gửi mail đến cho người dùng.  </p></li>
+																<li><p>Ngược lại, xử lý tín hiệu khác. </p></li>
+															</ul>
+														</ol>
+
+													</div>
+													<div class="col-md-6">
+														<img src="./Nhóm DoTaHiLu - Đồ án 1 môn Nhập môn CNTT 2_files/portfolio-3.jpg" alt="">
+													</div>
+												</div>
+											</div>
+											<div class="modal-footer">
+												<button type="button" class="btn btn-sm btn-default" data-dismiss="modal">Close</button>
+											</div>
+										</div>
+									</div>
+								</div><div class="modal fade" id="project-5" tabindex="-1" role="dialog" aria-labelledby="project-5-label" aria-hidden="true">
+									<div class="modal-dialog modal-lg">
+										<div class="modal-content">
+											<div class="modal-header">
+												<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">×</span><span class="sr-only">Close</span></button>
+												<h4 class="modal-title" id="project-5-label">"Giữ chân" người dùng</h4>
+											</div>
+											<div class="modal-body">
+												<h3>Mô tả</h3>
+												<div class="row">
+													<div class="col-md-6">
+														<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque sed, quidem quis praesentium, ut unde. Quae sed, incidunt laudantium nesciunt, optio corporis quod earum pariatur omnis illo saepe numquam suscipit, nemo placeat dignissimos eius mollitia et quas officia doloremque ipsum labore rem deserunt vero! Magnam totam delectus accusantium voluptas et, tempora quos atque, fugiat, obcaecati voluptatibus commodi illo voluptates dolore nemo quo soluta quis.</p>
+														<p>Molestiae sed enim laboriosam atque delectus voluptates rerum nostrum sapiente obcaecati molestias quasi optio exercitationem, voluptate quis consequatur libero incidunt, in, quod. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos nobis officiis, autem earum tenetur quidem. Quae non dicta earum. Ipsum autem eaque cum dolor placeat corporis quisquam dolorum at nesciunt.</p>
+													</div>
+													<div class="col-md-6">
+														<img src="./Nhóm DoTaHiLu - Đồ án 1 môn Nhập môn CNTT 2_files/portfolio-5.jpg" alt="">
+													</div>
+												</div>
+											</div>
+											<div class="modal-footer">
+												<button type="button" class="btn btn-sm btn-default" data-dismiss="modal">Close</button>
+											</div>
+										</div>
+									</div>
+								</div><div class="modal fade" id="project-6" tabindex="-1" role="dialog" aria-labelledby="project-6-label" aria-hidden="true">
+									<div class="modal-dialog modal-lg">
+										<div class="modal-content">
+											<div class="modal-header">
+												<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">×</span><span class="sr-only">Close</span></button>
+												<h4 class="modal-title" id="project-6-label">Cơ chế tìm kiếm</h4>
+											</div>
+											<div class="modal-body">
+												<h3>Mô tả</h3>
+												<div class="row">
+													<div class="col-md-6">
+														<p>Website cho phép người dùng tìm kiếm trung tâm theo mong muốn. Người dùng có thể: </p>
+														<ul>
+															<li><p>Tìm kiếm bằng cách nhập text</p></li>
+															<li><p>Tìm kiếm thông tin nâng cao với các mục: địa chỉ, học phí, môn học </p></li>
+														</ul>
+														
+														<p> Để tìm kiếm trong trang web, nhóm sẽ sử dụng custom search engine được cung cấp sẵn của Google. </p>
+														<p> Link: https://cse.google.com/cse/ </p> 
+														<strong> Cơ chế hoạt động của search egine Google: </strong>
+														<ol>
+															<li> Google đã sử dụng các web crawler, spider để tạo cơ sở dữ liệu </li>
+															<li> Khi người dùng nhập chuỗi, google sẽ sử dụng thuật toán Penguin để xử lý (https://moz.com/google-algorithm-change) </li>
+															<li> Gửi trả lại kết quả theo độ ưu tiên đã định</li>
+	
+														</ol>
+														<i> Nguồn: https://www.google.com/insidesearch/howsearchworks/thestory/ </i>
+													</div>
+													<div class="col-md-6">
+														<img src="./Nhóm DoTaHiLu - Đồ án 1 môn Nhập môn CNTT 2_files/portfolio-6.jpg" alt="">
+													</div>
+												</div>
+											</div>
+											<div class="modal-footer">
+												<button type="button" class="btn btn-sm btn-default" data-dismiss="modal">Close</button>
+											</div>
+										</div>
+									</div>
+								</div>
 		<!-- scrollToTop -->
 		<!-- ================ -->
 		<div class="scrollToTop"><i class="icon-up-open-big"></i></div>
@@ -53,12 +215,12 @@
 
 							<!-- logo -->
 							<div class="logo smooth-scroll">
-								<a href="#banner"><img id="logo" src="images/logo.png" alt="Worthy"></a>
+								<a href="https://dotahilu.github.io/#banner"><img id="logo" src="./Nhóm DoTaHiLu - Đồ án 1 môn Nhập môn CNTT 2_files/logo.png" alt="Worthy"></a>
 							</div>
 
 							<!-- name-and-slogan -->
 							<div class="site-name-and-slogan smooth-scroll">
-								<div class="site-name"><a href="#banner">DoTaHiLu</a></div>
+								<div class="site-name"><a href="https://dotahilu.github.io/#banner">DoTaHiLu</a></div>
 								<div class="site-slogan">Đồng Tâm Hiệp Lực - Github: <a target="_blank" href="https://github.com/nmcntt2-cntn2016/project1-DoTa">Project1 - DoTa</a></div>
 							</div>
 
@@ -94,12 +256,12 @@
 										<!-- Collect the nav links, forms, and other content for toggling -->
 										<div class="collapse navbar-collapse scrollspy smooth-scroll" id="navbar-collapse-1">
 											<ul class="nav navbar-nav navbar-right">
-												<li class="active"><a href="#banner">Trang chủ</a></li>
-												<li><a href="#idea">Ý tưởng</a></li>
-												<li><a href="#product">Sản phẩm</a></li>
-												<li><a href="#solution">Giải pháp</a></li>
-												<li><a href="#member">Thành viên</a></li>
-												<li><a href="#contact">Liên hệ</a></li>
+												<li class=""><a href="https://dotahilu.github.io/#banner">Trang chủ</a></li>
+												<li class="active"><a href="https://dotahilu.github.io/#idea">Ý tưởng</a></li>
+												<li><a href="https://dotahilu.github.io/#product">Sản phẩm</a></li>
+												<li><a href="https://dotahilu.github.io/#solution">Giải pháp</a></li>
+												<li><a href="https://dotahilu.github.io/#member">Thành viên</a></li>
+												<li><a href="https://dotahilu.github.io/#contact">Liên hệ</a></li>
 											</ul>
 										</div>
 
@@ -122,7 +284,7 @@
 		<!-- banner start -->
 		<!-- ================ -->
 		<div id="banner" class="banner">
-			<div class="banner-image"></div>
+			<div class="banner-image" style="position: relative; z-index: 0; background: none;"><div class="backstretch" style="left: 0px; top: 0px; overflow: hidden; margin: 0px; padding: 0px; height: 616px; width: 1349px; z-index: -999998; position: absolute;"><img src="./Nhóm DoTaHiLu - Đồ án 1 môn Nhập môn CNTT 2_files/banner.jpg" style="position: absolute; display: none; margin: 0px; padding: 0px; border: none; width: auto; height: 616px; max-height: none; max-width: none; z-index: -999999; top: 0px;"></div></div>
 			<div class="banner-caption">
 				<div class="container">
 					<div class="row">
@@ -232,22 +394,22 @@
 					<div class="row"> 
 						<div class="col-md-4 centered">
 							<center>
-								<img src="images/searcher.jpg" class="img-responsive img-circle" width="230px" height="230px">
-								<h5  class="objects">seeker</h5>
+								<img src="./Nhóm DoTaHiLu - Đồ án 1 môn Nhập môn CNTT 2_files/searcher.jpg" class="img-responsive img-circle" width="230px" height="230px">
+								<h5 class="objects">seeker</h5>
 								<p>Những người cần tìm một trung tâm Anh ngữ tốt nhất</p>
 							</center>
 						</div>
 						<div class="col-md-4 centered">
 							<center>
-								<img src="images/reviewer.jpg" class="img-responsive img-circle" width="230px" height="230px">
-								<h5  class="objects">reviewer</h5>
+								<img src="./Nhóm DoTaHiLu - Đồ án 1 môn Nhập môn CNTT 2_files/reviewer.jpg" class="img-responsive img-circle" width="230px" height="230px">
+								<h5 class="objects">reviewer</h5>
 								<p>Cựu học viên tại các trung tâm Anh ngữ</p>
 							</center>
 						</div>
 						<div class="col-md-4 centered">
 							<center>
-								<img src="images/EnglishCenter.jpg" class="img-responsive img-circle" width="230px" height="230px">
-								<h5  class="objects">English Centre</h5>
+								<img src="./Nhóm DoTaHiLu - Đồ án 1 môn Nhập môn CNTT 2_files/EnglishCenter.jpg" class="img-responsive img-circle" width="230px" height="230px">
+								<h5 class="objects">English Centre</h5>
 								<p>Các trung tâm Anh Ngữ</p>
 							</center>
 						</div>
@@ -262,7 +424,7 @@
    		</section>
    	<!-- /End New process --> 
 
-   </section> <!-- /process-->    
+    <!-- /process-->    
 
 		<!-- section start -->
 		<!-- ================ -->
@@ -275,7 +437,7 @@
 					<p class="lead text-center">Trang web <u>Hocdauchotot.com</u> là nơi để cộng đồng người học có thể đánh giá, nhận xét và bình luận về các trung tâm ngoại ngữ tại Việt Nam, giúp các học sinh, sinh viên, người đi làm dễ dàng tìm được nơi học ngoại ngữ phù hợp nhất thông qua việc tham khảo các đánh giá khách quan, đa chiều từ những người đi trước.</p>
 				</div>
 				<div class="col-md-6">
-					<img src="images/webelements2.png" style="width:512px; height:auto;" alt="">
+					<img src="./Nhóm DoTaHiLu - Đồ án 1 môn Nhập môn CNTT 2_files/webelements2.png" style="width:512px; height:auto;" alt="">
 				</div>
 			</div>
 			
@@ -290,11 +452,11 @@
 				<div class="space"></div>-->
 				<h1 id="clients" class="title text-center">Ưu điểm nổi bật</h1>
 				<div class="space"></div>
-				<div class="row"  style="letter-spacing: 0.5px">
+				<div class="row" style="letter-spacing: 0.5px">
 					<div class="col-md-4">
 						<div class="media testimonial">
 							<div class="media-left">
-								<img src="images/easy_to_search.png" alt="">
+								<img src="./Nhóm DoTaHiLu - Đồ án 1 môn Nhập môn CNTT 2_files/easy_to_search.png" alt="">
 							</div>
 							<div class="media-body">
 								<h2 class="media-heading">Dễ dàng tìm kiếm</h2>
@@ -307,7 +469,7 @@
 					<div class="col-md-4">
 						<div class="media testimonial">
 							<div class="media-left">
-								<img src="images/trust2.png" alt="">
+								<img src="./Nhóm DoTaHiLu - Đồ án 1 môn Nhập môn CNTT 2_files/trust2.png" alt="">
 							</div>
 							<div class="media-body">
 								<h2 class="media-heading">Đáng tin cậy</h2>
@@ -320,7 +482,7 @@
 					<div class="col-md-4">
 						<div class="media testimonial">
 							<div class="media-left">
-								<img src="images/connect.png" alt="">
+								<img src="./Nhóm DoTaHiLu - Đồ án 1 môn Nhập môn CNTT 2_files/connect.png" alt="">
 							</div>
 							<div class="media-body">
 								<h2 class="media-heading">Kết nối người dùng</h2>
@@ -335,7 +497,7 @@
 					<div class="col-md-4">
 						<div class="media testimonial">
 							<div class="media-left">
-								<img src="images/gift1.png" alt="">
+								<img src="./Nhóm DoTaHiLu - Đồ án 1 môn Nhập môn CNTT 2_files/gift1.png" alt="">
 							</div>
 							<div class="media-body">
 								<h2 class="media-heading">Tích điểm nhận quà</h2>
@@ -348,7 +510,7 @@
 					<div class="col-md-4">
 						<div class="media testimonial">
 							<div class="media-left">
-								<img src="images/like.png" alt="">
+								<img src="./Nhóm DoTaHiLu - Đồ án 1 môn Nhập môn CNTT 2_files/like.png" alt="">
 							</div>
 							<div class="media-body">
 								<h2 class="media-heading">Thông tin đầy đủ</h2>
@@ -361,7 +523,7 @@
 					<div class="col-md-4">
 						<div class="media testimonial">
 							<div class="media-left">
-								<img src="images/advertisement.png" alt="">
+								<img src="./Nhóm DoTaHiLu - Đồ án 1 môn Nhập môn CNTT 2_files/advertisement.png" alt="">
 							</div>
 							<div class="media-body">
 								<h2 class="media-heading">Quảng cáo hiệu quả</h2>
@@ -390,9 +552,9 @@
 						<!-- isotope filters start -->
 						<div class="filters text-center">
 							<ul class="nav nav-pills">
-								<li class="active"><a href="#" data-filter="*">Tất cả</a></li>
-								<li><a href="#" data-filter=".web-design">Kỹ Thuật</a></li>
-								<li><a href="#" data-filter=".app-development">Thương mại</a></li>
+								<li class="active"><a href="https://dotahilu.github.io/#" data-filter="*">Tất cả</a></li>
+								<li><a href="https://dotahilu.github.io/#" data-filter=".web-design">Kỹ Thuật</a></li>
+								<li><a href="https://dotahilu.github.io/#" data-filter=".app-development">Thương mại</a></li>
 							</ul>
 						</div>
 						<!-- isotope filters end -->
@@ -402,7 +564,7 @@
 							<div class="col-sm-6 col-md-3 isotope-item web-design">
 								<div class="image-box">
 									<div class="overlay-container">
-										<img src="images/portfolio-1.jpg" alt="">
+										<img src="./Nhóm DoTaHiLu - Đồ án 1 môn Nhập môn CNTT 2_files/portfolio-1.jpg" alt="">
 										<a class="overlay" data-toggle="modal" data-target="#project-1">
 											<i class="fa fa-search-plus"></i>
 											<span>Kĩ thuật</span>
@@ -411,58 +573,14 @@
 									<a class="btn btn-default btn-block" data-toggle="modal" data-target="#project-1">Cơ chế login</a>
 								</div>
 								<!-- Modal -->
-								<div class="modal fade" id="project-1" tabindex="-1" role="dialog" aria-labelledby="project-1-label" aria-hidden="true">
-									<div class="modal-dialog modal-lg">
-										<div class="modal-content">
-											<div class="modal-header">
-												<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-												<h4 class="modal-title" id="project-1-label">Cơ chế login</h4>
-											</div>
-											<div class="modal-body">
-												<h3>Mô tả</h3>
-												<div class="row">
-													<div class="col-md-6">
-														<p>Trang web cho phép người dùng đăng nhập bằng Facebook hay Google</p>
-														<strong>Quy trình xác thực bằng Facebook/Google </strong>
-														<ul>
-															<li><p>Đầu tiên, từ trang web của mình, chúng ta yêu cầu người dùng cho phép truy cập vào thông tin của người dùng (Từ thông tin này ta sẽ dùng để đăng nhập vào hệ thống). Thực ra ở bước này ta sẽ chuyển hướng người dùng đến trang xác thực của facebook/google.</p>
-															</li>
-															<li><p>Tiếp theo, người dùng sẽ xác nhận và cung cấp cho ta các quyền để truy cập vào thông tin của người dùng.</p>
-															</li>
-															<li><p>Sau đó, facebook/google sẽ chuyển hướng người dùng về lại trang web của ta cùng với thông tin về quyền truy cập mà người dùng đã cho phép.</p>
-															</li>
-															<li><p>Từ thông tin facebook/google trả về, ta sẽ gọi các hàm API của facebook/google để lấy thông tin của người dùng như user name, email…</p>
-															</li>
-															<li><p>Với những thông tin đã có được, ta tiến hành đăng nhập cho người dùng ( chẳng hạn lưu vào session rằng người dùng đã đăng nhập), nếu muốn ta có thể sử dụng thông tin người dùng để lưu vào database.</p>
-															</li>
-														</ul>
-														<strong>Các bước thực hiện </strong>
-														<ol>
-															<li><p>Tạo Facebook App/ Google Project và thiết lập cấu hình</p> </li>
-															<li><p>Tạo trang đăng nhập</p> </li>
-															<li><p>Tạo trang xử lý khi người dùng đã xác thực</p> </li>
-															<li><p>Lưu thông tin người dùng</p> </li>
-														</ol>
-														<i> Nguồn: http://saysua.com/2013/09/03/viet-chuc-nang-login-bang-tai-khoan-facebook-khong-dung-facebook-sdk/ </i>
-													</div>
-													<div class="col-md-6">
-														<img src="http://saysua.com/images/facebook-flow.png" alt="">
-													</div>
-												</div>
-											</div>
-											<div class="modal-footer">
-												<button type="button" class="btn btn-sm btn-default" data-dismiss="modal">Close</button>
-											</div>
-										</div>
-									</div>
-								</div>
+								
 								<!-- Modal end -->
 							</div>
 
 							<div class="col-sm-6 col-md-3 isotope-item app-development">
 								<div class="image-box">
 									<div class="overlay-container">
-										<img src="images/portfolio-2.jpg" alt="">
+										<img src="./Nhóm DoTaHiLu - Đồ án 1 môn Nhập môn CNTT 2_files/portfolio-2.jpg" alt="">
 										<a class="overlay" data-toggle="modal" data-target="#project-2">
 											<i class="fa fa-search-plus"></i>
 											<span>Thương mại</span>
@@ -471,38 +589,14 @@
 									<a class="btn btn-default btn-block" data-toggle="modal" data-target="#project-2">Quảng cáo website</a>
 								</div>
 								<!-- Modal -->
-								<div class="modal fade" id="project-2" tabindex="-1" role="dialog" aria-labelledby="project-2-label" aria-hidden="true">
-									<div class="modal-dialog modal-lg">
-										<div class="modal-content">
-											<div class="modal-header">
-												<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-												<h4 class="modal-title" id="project-2-label">Quảng cáo website</h4>
-											</div>
-											<div class="modal-body">
-												<h3>Mô tả</h3>
-												<div class="row">
-													<div class="col-md-6">
-														<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque sed, quidem quis praesentium, ut unde. Quae sed, incidunt laudantium nesciunt, optio corporis quod earum pariatur omnis illo saepe numquam suscipit, nemo placeat dignissimos eius mollitia et quas officia doloremque ipsum labore rem deserunt vero! Magnam totam delectus accusantium voluptas et, tempora quos atque, fugiat, obcaecati voluptatibus commodi illo voluptates dolore nemo quo soluta quis.</p>
-														<p>Molestiae sed enim laboriosam atque delectus voluptates rerum nostrum sapiente obcaecati molestias quasi optio exercitationem, voluptate quis consequatur libero incidunt, in, quod. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos nobis officiis, autem earum tenetur quidem. Quae non dicta earum. Ipsum autem eaque cum dolor placeat corporis quisquam dolorum at nesciunt.</p>
-													</div>
-													<div class="col-md-6">
-														<img src="images/portfolio-2.jpg" alt="">
-													</div>
-												</div>
-											</div>
-											<div class="modal-footer">
-												<button type="button" class="btn btn-sm btn-default" data-dismiss="modal">Close</button>
-											</div>
-										</div>
-									</div>
-								</div>
+								
 								<!-- Modal end -->
 							</div>
 							
 							<div class="col-sm-6 col-md-3 isotope-item web-design">
 								<div class="image-box">
 									<div class="overlay-container">
-										<img src="images/portfolio-3.png" alt="">
+										<img src="./Nhóm DoTaHiLu - Đồ án 1 môn Nhập môn CNTT 2_files/portfolio-3.png" alt="">
 										<a class="overlay" data-toggle="modal" data-target="#project-3">
 											<i class="fa fa-search-plus"></i>
 											<span>Kĩ thuật</span>
@@ -511,41 +605,7 @@
 									<a class="btn btn-default btn-block" data-toggle="modal" data-target="#project-3">Cơ chế gửi mail tự động</a>
 								</div>
 								<!-- Modal -->
-								<div class="modal fade" id="project-3" tabindex="-1" role="dialog" aria-labelledby="project-3-label" aria-hidden="true">
-									<div class="modal-dialog modal-lg">
-										<div class="modal-content">
-											<div class="modal-header">
-												<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-												<h4 class="modal-title" id="project-3-label">Cơ chế gửi mail tự động</h4>
-											</div>
-											<div class="modal-body">
-												<h3>Mô Tả</h3>
-												<div class="row">
-													<div class="col-md-6">
-														<p>Website sẽ tự động gửi mail thông báo đến người dùng khi người dùng để lại comment</p>
-														<strong>Cơ chế diễn ra như sau: </strong>
-														<ol>
-															<li> <p> Người dùng nhấn submit comment </p> </li>
-															<li> <p>Từ web client gửi tín hiệu đến web server.</p></li>
-															<li> <p>Bước 3: Server xử lý tín hiệu: </p> </li>
-															<ul>	
-																<li><p>Nếu là tín hiệu gửi mail, server lấy id người dùng vừa gửi để lấy mail trong cơ sở dữ liệu. Từ đó gửi mail đến cho người dùng.  </p></li>
-																<li><p>Ngược lại, xử lý tín hiệu khác. </p></li>
-															</ul>
-														</ol>
-
-													</div>
-													<div class="col-md-6">
-														<img src="images/portfolio-3.jpg" alt="">
-													</div>
-												</div>
-											</div>
-											<div class="modal-footer">
-												<button type="button" class="btn btn-sm btn-default" data-dismiss="modal">Close</button>
-											</div>
-										</div>
-									</div>
-								</div>
+								
 								<!-- Modal end -->
 							</div>
 							
@@ -553,7 +613,7 @@
 							<div class="col-sm-6 col-md-3 isotope-item app-development">
 								<div class="image-box">
 									<div class="overlay-container">
-										<img src="images/portfolio-5.jpg" alt="">
+										<img src="./Nhóm DoTaHiLu - Đồ án 1 môn Nhập môn CNTT 2_files/portfolio-5.jpg" alt="">
 										<a class="overlay" data-toggle="modal" data-target="#project-5">
 											<i class="fa fa-search-plus"></i>
 											<span>Thương mại</span>
@@ -562,38 +622,14 @@
 									<a class="btn btn-default btn-block" data-toggle="modal" data-target="#project-5">"Giữ chân" người dùng</a>
 								</div>
 								<!-- Modal -->
-								<div class="modal fade" id="project-5" tabindex="-1" role="dialog" aria-labelledby="project-5-label" aria-hidden="true">
-									<div class="modal-dialog modal-lg">
-										<div class="modal-content">
-											<div class="modal-header">
-												<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-												<h4 class="modal-title" id="project-5-label">"Giữ chân" người dùng</h4>
-											</div>
-											<div class="modal-body">
-												<h3>Mô tả</h3>
-												<div class="row">
-													<div class="col-md-6">
-														<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque sed, quidem quis praesentium, ut unde. Quae sed, incidunt laudantium nesciunt, optio corporis quod earum pariatur omnis illo saepe numquam suscipit, nemo placeat dignissimos eius mollitia et quas officia doloremque ipsum labore rem deserunt vero! Magnam totam delectus accusantium voluptas et, tempora quos atque, fugiat, obcaecati voluptatibus commodi illo voluptates dolore nemo quo soluta quis.</p>
-														<p>Molestiae sed enim laboriosam atque delectus voluptates rerum nostrum sapiente obcaecati molestias quasi optio exercitationem, voluptate quis consequatur libero incidunt, in, quod. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos nobis officiis, autem earum tenetur quidem. Quae non dicta earum. Ipsum autem eaque cum dolor placeat corporis quisquam dolorum at nesciunt.</p>
-													</div>
-													<div class="col-md-6">
-														<img src="images/portfolio-5.jpg" alt="">
-													</div>
-												</div>
-											</div>
-											<div class="modal-footer">
-												<button type="button" class="btn btn-sm btn-default" data-dismiss="modal">Close</button>
-											</div>
-										</div>
-									</div>
-								</div>
+								
 								<!-- Modal end -->
 							</div>
 							
 							<div class="col-sm-6 col-md-3 isotope-item web-design">
 								<div class="image-box">
 									<div class="overlay-container">
-										<img src="images/portfolio-6.jpg" alt="">
+										<img src="./Nhóm DoTaHiLu - Đồ án 1 môn Nhập môn CNTT 2_files/portfolio-6.jpg" alt="">
 										<a class="overlay" data-toggle="modal" data-target="#project-6">
 											<i class="fa fa-search-plus"></i>
 											<span>Kĩ thuật</span>
@@ -602,45 +638,7 @@
 									<a class="btn btn-default btn-block" data-toggle="modal" data-target="#project-6">Cơ chế tìm kiếm</a>
 								</div>
 								<!-- Modal -->
-								<div class="modal fade" id="project-6" tabindex="-1" role="dialog" aria-labelledby="project-6-label" aria-hidden="true">
-									<div class="modal-dialog modal-lg">
-										<div class="modal-content">
-											<div class="modal-header">
-												<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-												<h4 class="modal-title" id="project-6-label">Cơ chế tìm kiếm</h4>
-											</div>
-											<div class="modal-body">
-												<h3>Mô tả</h3>
-												<div class="row">
-													<div class="col-md-6">
-														<p>Website cho phép người dùng tìm kiếm trung tâm theo mong muốn. Người dùng có thể: </p>
-														<ul>
-															<li><p>Tìm kiếm bằng cách nhập text</p></li>
-															<li><p>Tìm kiếm thông tin nâng cao với các mục: địa chỉ, học phí, môn học </p></li>
-														</ul>
-														
-														<p> Để tìm kiếm trong trang web, nhóm sẽ sử dụng custom search engine được cung cấp sẵn của Google. </p>
-														<p> Link: https://cse.google.com/cse/ </p> 
-														<strong> Cơ chế hoạt động của search egine Google: </strong>
-														<ol>
-															<li> Google đã sử dụng các web crawler, spider để tạo cơ sở dữ liệu </li>
-															<li> Khi người dùng nhập chuỗi, google sẽ sử dụng thuật toán Penguin để xử lý (https://moz.com/google-algorithm-change) </li>
-															<li> Gửi trả lại kết quả theo độ ưu tiên đã định</li>
-	
-														</ol>
-														<i> Nguồn: https://www.google.com/insidesearch/howsearchworks/thestory/ </i>
-													</div>
-													<div class="col-md-6">
-														<img src="images/portfolio-6.jpg" alt="">
-													</div>
-												</div>
-											</div>
-											<div class="modal-footer">
-												<button type="button" class="btn btn-sm btn-default" data-dismiss="modal">Close</button>
-											</div>
-										</div>
-									</div>
-								</div>
+								
 								<!-- Modal end -->
 							</div>
 						</div>
@@ -661,7 +659,7 @@
 				<div class="row"> 
 							<div class="col-md-3 centered">
 								<p></p>
-								<center><img src="images/MinhHieu.jpg" class="img-responsive img-circle" width="240px" height="240px">
+								<center><img src="./Nhóm DoTaHiLu - Đồ án 1 môn Nhập môn CNTT 2_files/MinhHieu.jpg" class="img-responsive img-circle" width="240px" height="240px">
 								</center>
 								<p></p>
 								<!-- Minh Hiếu -->
@@ -670,7 +668,7 @@
 							</div>
 							<div class="col-md-3 centered">
 								<p></p>
-								<center><img src="images/Quoc.jpg" class="img-responsive img-circle" width="240px" height="240px"></center>
+								<center><img src="./Nhóm DoTaHiLu - Đồ án 1 môn Nhập môn CNTT 2_files/Quoc.jpg" class="img-responsive img-circle" width="240px" height="240px"></center>
 								<p></p>
 								<!--Phạm Anh Quốc -->
 								<a href="https://www.facebook.com/faq21106" target="_blank" title="Đến trang cá nhân"> <h5> Phạm Anh Quốc </h5> </a>
@@ -678,7 +676,7 @@
 							</div>
 							<div class="col-md-3 centered">
 								<p></p>
-								<center><img src="images/ThienNu.jpg" class="img-responsive img-circle" width="240px" height="240px"></center>
+								<center><img src="./Nhóm DoTaHiLu - Đồ án 1 môn Nhập môn CNTT 2_files/ThienNu.jpg" class="img-responsive img-circle" width="240px" height="240px"></center>
 								<p></p>
 								<!--Hoàng Thiên Nữ! -->
 								<a href="https://www.facebook.com/zit.khum.9" target="_blank" title="Đến trang cá nhân"> <h5> Hoàng Thiên Nữ </h5> </a>
@@ -686,7 +684,7 @@
 							</div>
 							<div class="col-md-3 centered">
 								<p></p>
-								<center><img src="images/MyNy.jpg" class="img-responsive img-circle" width="240px" height="240px"></center>
+								<center><img src="./Nhóm DoTaHiLu - Đồ án 1 môn Nhập môn CNTT 2_files/MyNy.jpg" class="img-responsive img-circle" width="240px" height="240px"></center>
 								<p></p>
 								<!-- My Ny -->
 								<a href="https://www.facebook.com/mynyvo1998?hc_ref=SEARCH&fref=nf" target="_blank" title="Đến trang cá nhân"> <h5> Võ Thị My Ny </h5> </a>
@@ -716,8 +714,8 @@
 								</ul>
 								<ul class="social-links">
 									<li class="facebook"><a target="_blank" href="https://www.facebook.com/groups/2017.nmcntt2.cntn2016/"><i class="fa fa-facebook"></i></a></li>
-									<li class="googleplus"><a target="_blank" href="http://plus.google.com"><i class="fa fa-google-plus"></i></a></li>
-									<li class="youtube"><a target="_blank" href="http://www.youtube.com"><i class="fa fa-youtube"></i></a></li>
+									<li class="googleplus"><a target="_blank" href="http://plus.google.com/"><i class="fa fa-google-plus"></i></a></li>
+									<li class="youtube"><a target="_blank" href="http://www.youtube.com/"><i class="fa fa-youtube"></i></a></li>
 					
 								</ul>
 							</div>
@@ -727,17 +725,17 @@
 								<form role="form" id="footer-form">
 									<div class="form-group has-feedback">
 										<label class="sr-only" for="name2">Name</label>
-										<input type="text" class="form-control" id="name2" placeholder="Name" name="name2" required>
+										<input type="text" class="form-control" id="name2" placeholder="Name" name="name2" required="">
 										<i class="fa fa-user form-control-feedback"></i>
 									</div>
 									<div class="form-group has-feedback">
 										<label class="sr-only" for="email2">Email address</label>
-										<input type="email" class="form-control" id="email2" placeholder="Enter email" name="email2" required>
+										<input type="email" class="form-control" id="email2" placeholder="Enter email" name="email2" required="">
 										<i class="fa fa-envelope form-control-feedback"></i>
 									</div>
 									<div class="form-group has-feedback">
 										<label class="sr-only" for="message2">Message</label>
-										<textarea class="form-control" rows="8" id="message2" placeholder="Message" name="message2" required></textarea>
+										<textarea class="form-control" rows="8" id="message2" placeholder="Message" name="message2" required=""></textarea>
 										<i class="fa fa-pencil form-control-feedback"></i>
 									</div>
 									<input type="submit" value="Send" class="btn btn-default">
@@ -755,7 +753,7 @@
 				<div class="container">
 					<div class="row">
 						<div class="col-md-12">
-							<p class="text-center">Copyright © 2014 Worthy by <a target="_blank" href="http://htmlcoder.me">HtmlCoder</a>.</p>
+							<p class="text-center">Copyright © 2014 Worthy by <a target="_blank" href="http://htmlcoder.me/">HtmlCoder</a>.</p>
 						</div>
 					</div>
 				</div>
@@ -768,27 +766,28 @@
 		<!-- JavaScript files placed at the end of the document so the pages load faster
 		================================================== -->
 		<!-- Jquery and Bootstap core js files -->
-		<script type="text/javascript" src="plugins/jquery.min.js"></script>
-		<script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="./Nhóm DoTaHiLu - Đồ án 1 môn Nhập môn CNTT 2_files/jquery.min.js"></script>
+		<script type="text/javascript" src="./Nhóm DoTaHiLu - Đồ án 1 môn Nhập môn CNTT 2_files/bootstrap.min.js"></script>
 
 		<!-- Modernizr javascript -->
-		<script type="text/javascript" src="plugins/modernizr.js"></script>
+		<script type="text/javascript" src="./Nhóm DoTaHiLu - Đồ án 1 môn Nhập môn CNTT 2_files/modernizr.js"></script>
 
 		<!-- Isotope javascript -->
-		<script type="text/javascript" src="plugins/isotope/isotope.pkgd.min.js"></script>
+		<script type="text/javascript" src="./Nhóm DoTaHiLu - Đồ án 1 môn Nhập môn CNTT 2_files/isotope.pkgd.min.js"></script>
 		
 		<!-- Backstretch javascript -->
-		<script type="text/javascript" src="plugins/jquery.backstretch.min.js"></script>
+		<script type="text/javascript" src="./Nhóm DoTaHiLu - Đồ án 1 môn Nhập môn CNTT 2_files/jquery.backstretch.min.js"></script>
 
 		<!-- Appear javascript -->
-		<script type="text/javascript" src="plugins/jquery.appear.js"></script>
+		<script type="text/javascript" src="./Nhóm DoTaHiLu - Đồ án 1 môn Nhập môn CNTT 2_files/jquery.appear.js"></script>
 
 		<!-- Initialization of Plugins -->
-		<script type="text/javascript" src="js/template.js"></script>
+		<script type="text/javascript" src="./Nhóm DoTaHiLu - Đồ án 1 môn Nhập môn CNTT 2_files/template.js"></script>
 
 		<!-- Custom Scripts -->
-		<script type="text/javascript" src="js/custom.js"></script>
+		<script type="text/javascript" src="./Nhóm DoTaHiLu - Đồ án 1 môn Nhập môn CNTT 2_files/custom.js"></script>
 
-	</body>
-</html>
+	
 
+
+</body></html>
