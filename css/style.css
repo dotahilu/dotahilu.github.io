@@ -344,7 +344,9 @@ blockquote {
 .panel-default > .panel-heading + .panel-collapse > .panel-body {
 	border: 1px solid #f0f0f0;
 	border-top: none;
-	background-color: #fafafa
+	background-color: #fafafa;
+	text-align: justify;
+	text-justify: none;
 }
 .panel-heading a {
 	font-weight: 400;
