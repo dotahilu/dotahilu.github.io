@@ -231,6 +231,10 @@ blockquote {
 	z-index: 3;
 	position: relative;
 }
+
+.bg-image-0 {
+	background: url("../images/bg-image-0.jpg") 50% 0px no-repeat;
+}
 .bg-image-1 {
 	background: url("../images/bg-image-1.jpg") 50% 0px no-repeat;
 }
@@ -809,25 +813,4 @@ textarea {
 	left: 50%;
 	bottom: 0;
 	margin-left: -60px;
-}
-
-.objects {
-	font-family: "Comic Sans MS", serif;
-}
-
-.objects h5 {
-	margin-top: 40px;
-	color: #0066f5;
-	font-size: 25px;
-	font-weight: bold;
-}
-
-.objects {
-	font-size: 17px;
-}
-
-.for-whom {
-	font-weight: bold;
-	text-transform: uppercase;
-	font-family: "Optima";
 }
