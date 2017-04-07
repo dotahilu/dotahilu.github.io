@@ -732,6 +732,7 @@ textarea {
 	padding-bottom: 12rem;
 	overflow: hidden;
 }
+
 .process-content {
 	position: relative;
 	text-align: center;
@@ -810,8 +811,23 @@ textarea {
 	margin-left: -60px;
 }
 
-.row .objects {
+.objects {
+	font-family: "Comic Sans MS", serif;
+}
+
+.objects h5 {
 	margin-top: 40px;
 	color: #0066f5;
-	font-family: "merriweather-bold", serif;
+	font-size: 25px;
+	font-weight: bold;
+}
+
+.objects {
+	font-size: 17px;
+}
+
+.for-whom {
+	font-weight: bold;
+	text-transform: uppercase;
+	font-family: "Optima";
 }
