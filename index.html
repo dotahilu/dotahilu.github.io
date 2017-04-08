@@ -35,6 +35,9 @@
 
 		<!-- Custom css --> 
 		<link href="css/custom.css" rel="stylesheet">
+
+		<!-- Custom script -->
+		<script type="text/javascript" src="js/custom.js"></script>
 	</head>
 
 	<body class="no-trans">
@@ -243,13 +246,12 @@
     	
     	<!-- Quy trinh moi danh cho nguoi dung -->
 		<section id="process">
+			<div class="process-for-seeker">
    			<div class="row section-intro">
    				<div class="col-twelve with-bottom-line">
-   					<h1>Quy trình mới</h1>
-   					<h4 class="text-muted">Khi áp dụng giải pháp này, quy trình tìm kiếm của bạn sẽ được cải tiến: </h4>
+   					<h2 class="title">Quy trình mới đối với người dùng</h2>
+   					<h4 class="text-muted">Khi áp dụng giải pháp này, quy trình tìm kiếm của bạn sẽ được cải tiến thành các bước đơn giản: </h4>
    				</div>
-   				<p class="break-2-lines"></p>
-   				<h2 class="text-center title for-whom">Đối với người dùng</h2>
    			</div>
 
    			<div class="row process-content">
@@ -294,92 +296,99 @@
 
    				<div class="image-part object-non-visible" data-animation-effect="zoomIn"></div>
    			</div>
-   		</section>
-   		<!-- End Quy trinh moi danh cho nguoi dung --> 
-		
-		<!-- Quy trinh moi danh cho trung tam -->
-		<div class="section translucent-bg bg-image-1">
-			<div class="container">
-				<h2 class="text-center title for-whom object-non-visible" data-animation-effect="fadeIn">Đối với các trung tâm Anh ngữ</h2>
-				<div class="space"></div>
-				<div class="row">
-					<div class="col-sm-6 object-non-visible" data-animation-effect="zoomInLeft">
-						<div class="media">
-							<div class="media-body text-right">
-								<h4 class="media-heading">Chuẩn bị thông tin</h4>
-								<p>-----------------------------------------------------------------------------------------------------</p>
+   			</div> <!-- End process for seeker -->
+
+			<div class="process-for-center" style="display: none;">
+			<div class="section">
+				<div class="container">
+					<h2 class="text-center title for-whom object-non-visible" data-animation-effect="zoomIn">Quy trình mới đối với các trung tâm Anh ngữ</h2>
+					<div class="space"></div>
+					<div class="row">
+						<div class="col-sm-6 object-non-visible" data-animation-effect="zoomInLeft">
+							<div class="media">
+								<div class="media-body text-right">
+									<h4 class="media-heading">Chuẩn bị thông tin</h4>
+									<p>-----------------------------------------------------------------------------------------------------</p>
+								</div>
+								<div class="media-right">
+									<i class="fa fa-cog"></i>
+								</div>
 							</div>
-							<div class="media-right">
-								<i class="fa fa-cog"></i>
+							<div class="media">
+								<div class="media-body text-right">
+									<p>Trung tâm chuẩn bị các thông tin cần thiết theo quy định của Hocdauchotot.com, bao gồm: thông tin chung, danh sách các trụ sở, học phí và thời gian mỗi khóa, quyền lợi học viên, ...</p>
+								</div>
+								<div class="media-right">
+									<i class="fa fa-check"></i>
+								</div>
 							</div>
-						</div>
-						<div class="media">
-							<div class="media-body text-right">
-								<p>Trung tâm chuẩn bị các thông tin cần thiết theo quy định của Hocdauchotot.com, bao gồm: thông tin chung, danh sách các trụ sở, học phí và thời gian mỗi khóa, quyền lợi học viên, ...</p>
+							<div class="media">
+								<div class="media-body text-right">
+									<p>Thông tin được soạn bằng phần mềm soạn thảo văn bản (MS Word,OpenOffice) , font chữ Times New Roman, cỡ chữ 12, các mục được chia rõ ràng, dễ đọc.</p>
+								</div>
+								<div class="media-right">
+									<i class="fa fa-desktop"></i>
+								</div>
 							</div>
-							<div class="media-right">
-								<i class="fa fa-check"></i>
-							</div>
-						</div>
-						<div class="media">
-							<div class="media-body text-right">
-								<p>Thông tin được soạn bằng phần mềm soạn thảo văn bản (MS Word,OpenOffice) , font chữ Times New Roman, cỡ chữ 12, các mục được chia rõ ràng, dễ đọc.</p>
-							</div>
-							<div class="media-right">
-								<i class="fa fa-desktop"></i>
-							</div>
-						</div>
-						<div class="media">
-							<div class="media-body text-right">
-								<p>Ngoài ra, trung tâm phải gửi kèm 5 bức hình về cơ sở vật chất (phòng học, khuôn viên, tài liệu, ...).
-								Ảnh phải rõ, kích cỡ tối thiểu là 750x500 px .</p>
-							</div>
-							<div class="media-right">
-								<i class="fa fa-users"></i>
-							</div>
-						</div>
-					</div>
-					<div class="space visible-xs"></div>
-					<div class="col-sm-6 object-non-visible" data-animation-effect="zoomInRight">
-						<div class="media">
-							<div class="media-left">
-								<i class="fa fa-leaf"></i>
-							</div>
-							<div class="media-body">
-								<h4 class="media-heading">Gửi thông tin và đăng bài</h4>
-								<p>-----------------------------------------------------------------------------------------------------</p>
+							<div class="media">
+								<div class="media-body text-right">
+									<p>Ngoài ra, trung tâm phải gửi kèm 5 bức hình về cơ sở vật chất (phòng học, khuôn viên, tài liệu, ...).
+									Ảnh phải rõ, kích cỡ tối thiểu là 750x500 px .</p>
+								</div>
+								<div class="media-right">
+									<i class="fa fa-users"></i>
+								</div>
 							</div>
 						</div>
-						<div class="media">
-							<div class="media-left">
-								<i class="fa fa-area-chart"></i>
+						<div class="space visible-xs"></div>
+						<div class="col-sm-6 object-non-visible" data-animation-effect="zoomInRight">
+							<div class="media">
+								<div class="media-left">
+									<i class="fa fa-leaf"></i>
+								</div>
+								<div class="media-body">
+									<h4 class="media-heading">Gửi thông tin và đăng bài</h4>
+									<p>-----------------------------------------------------------------------------------------------------</p>
+								</div>
 							</div>
-							<div class="media-body">
-								<p>Trung tâm gửi thông tin về cho nhóm qua địa chỉ hocdauchotot@gmail.com. Hocdauchotot nhận mail và kiểm tra thông tin.</p>
+							<div class="media">
+								<div class="media-left">
+									<i class="fa fa-area-chart"></i>
+								</div>
+								<div class="media-body">
+									<p>Trung tâm gửi thông tin về cho nhóm qua địa chỉ hocdauchotot@gmail.com. Hocdauchotot nhận mail và kiểm tra thông tin.</p>
+								</div>
 							</div>
-						</div>
-						<div class="media">
-							<div class="media-left">
-								<i class="fa fa-child"></i>
+							<div class="media">
+								<div class="media-left">
+									<i class="fa fa-child"></i>
+								</div>
+								<div class="media-body">
+									<p>Nếu thông tin chưa đúng quy định, Hocdauchotot.com gửi phản hồi về mail trung tâm yêu cầu soạn lại.<br>
+									   Nếu thông tin đúng, Hocdauchotot.com sẽ gửi preview trước khi đăng về mail trung tâm để trung tâm kiểm tra sai sót lần cuối.</p>
+								</div>
 							</div>
-							<div class="media-body">
-								<p>Nếu thông tin chưa đúng quy định, Hocdauchotot.com gửi phản hồi về mail trung tâm yêu cầu soạn lại.<br>
-								   Nếu thông tin đúng, Hocdauchotot.com sẽ gửi preview trước khi đăng về mail trung tâm để trung tâm kiểm tra sai sót lần cuối.</p>
-							</div>
-						</div>
-						<div class="media">
-							<div class="media-left">
-								<i class="fa fa-codepen"></i>
-							</div>
-							<div class="media-body">
-								<p>Sau nhiều bước xác thực thông tin, Hocdauchotot.com tiến hành đăng bài lên website và cập nhật cơ sở dữ liệu.</p>
+							<div class="media">
+								<div class="media-left">
+									<i class="fa fa-codepen"></i>
+								</div>
+								<div class="media-body">
+									<p>Sau nhiều bước xác thực thông tin, Hocdauchotot.com tiến hành đăng bài lên website và cập nhật cơ sở dữ liệu.</p>
+								</div>
 							</div>
 						</div>
 					</div>
 				</div>
 			</div>
-		</div>
-		<!-- End Quy trinh moi danh cho trung tam -->
+			</div> <!-- End process for center -->
+			<div class="slide-control text-center">
+				<button class="slide-left" href="#"> < </button>
+				<span class="num-slide">1/2</span>
+    			<button class="slide-right" href="#"> > </button>	
+			</div>
+			
+			
+   		</section>
 
 		<!-- Uu diem noi bat -->
 		<div class="section translucent-bg bg-image-2 pb-clear">
@@ -983,7 +992,7 @@
 
 		<!-- section start -->
 		<!-- ================ -->
-		<div class="section translucent-bg bg-image-2 pb-clear">
+		<div class="section translucent-bg bg-image-1 pb-clear">
 			<div class="container animated">
 				<h1 id="member" class="title text-center">Thông tin thành viên</h1>
 				<div class="space"></div>
