@@ -109,6 +109,8 @@ blockquote {
 }
 .title {
 	margin-top: 0;
+	font-family: "Optima";
+	font-weight: bold;
 }
 
 /* Layout
@@ -346,7 +348,7 @@ blockquote {
 	width: 100%;
 }
 .panel-default > .panel-heading + .panel-collapse > .panel-body {
-	border: 1px solid #f0f0f0;
+	border: none;
 	border-top: none;
 	background-color: #fafafa;
 	text-align: justify;
@@ -813,4 +815,20 @@ textarea {
 	left: 50%;
 	bottom: 0;
 	margin-left: -60px;
+}
+
+.slide-control {
+	margin-top: 10px;
+}
+
+.slide-control button {
+	font-size: 20px;
+	background: #05bca9;
+	color: #ffffff;
+	padding: 10px 5px;
+	text-decoration: none;
+}
+.num-slide {
+	font-size: 10px;
+	margin: 0 10px;
 }
