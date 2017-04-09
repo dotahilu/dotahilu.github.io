@@ -784,7 +784,7 @@ textarea {
 	text-align: center;
 	margin-left: auto;
 	margin-right: auto;
-	margin-bottom: 5.2rem;
+	margin-bottom: 3.2rem;
 	position: relative;
 }
 .section-intro h1 {
@@ -818,17 +818,15 @@ textarea {
 }
 
 .slide-control {
-	margin-top: 10px;
-}
-
-.slide-control button {
 	font-size: 20px;
 	background: #05bca9;
 	color: #ffffff;
 	padding: 10px 5px;
 	text-decoration: none;
 }
-.num-slide {
-	font-size: 10px;
-	margin: 0 10px;
+
+.process-title {
+	font-size: 25px;
+	font-weight: bold;
+	padding: 0 100px;
 }
