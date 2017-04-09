@@ -10,24 +10,16 @@
 (function($){
 	$(document).ready(function(){
 		var slide_number = 1;
-	    $(".slide-left").click(function(){
-	        //event.preventDefault();
-	        if ( slide_number == 2) {
+	    $(".slide-control").click(function(){
+	        if ( slide_number % 2 == 0) {
                 $(".process-for-center").fadeOut();
                 $(".process-for-seeker").fadeIn();
-                slide_number = 1;
-                $(".num-slide").text("1/2");
             }
-        });
-        $(".slide-right").click(function(){
-        	//event.preventDefault();
-            if ( slide_number == 1) {
+            else {
                 $(".process-for-seeker").fadeOut();
                 $(".process-for-center").fadeIn();
-                slide_number = 2;
-                $(".num-slide").text("2/2");
             }
+            slide_number = slide_number + 1;
         });
-		
 	}); // End document ready
 })(this.jQuery);
